@@ -1,0 +1,80 @@
+.book-app {
+	margin: 25px;
+	text-align: center;
+	font-family: fontAwesome;
+}
+.shelf {
+	margin: 25px;
+}
+.shelf h2 {
+	border-bottom: 1px solid grey;
+  padding: 10px 0;
+  text-align: left;
+}
+.overflow-cont {
+	position: relative;
+	overflow-x: auto;
+	white-space: nowrap;
+	text-align: center;
+}
+.image {
+  width: auto;
+  height: 250px;
+}
+.book-container {
+	display: inline-block;
+	margin: 25px;
+}
+.book-details {
+	position: relative;
+	text-align: left;
+}
+select, .book-button{
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: -20px;
+  top: -25px;
+}
+select {
+  cursor: pointer;
+  opacity: 0;
+}
+.book-button {
+	line-height: 40px;
+}
+.btn {
+	background: green;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	box-shadow: 1px 1px 4px 2px lightgrey;
+}
+.search-button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 4%;
+  top: 40%;
+  font-size: 30px;
+  line-height: 44px;
+  cursor: pointer;
+}
+.search-cont {
+	border-bottom: 1px solid grey;
+	padding: 10px;
+	text-align: left;
+}
+input {
+	height: 20px;
+  width: 50%;
+  border: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+input:focus{
+  outline: none;
+}
+a {
+	text-decoration: none;
+}
